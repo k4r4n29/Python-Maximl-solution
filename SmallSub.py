@@ -1,4 +1,3 @@
-
 max_char = 256 
 
 def smallSub(str): 
@@ -31,6 +30,6 @@ def count_distinct(str, n):
 
 if __name__ == "__main__": 
 	
-	str = "ABCDA" #to check with every string change this to input()
+	str = input()
 	l = smallSub(str); 
-	print(l,end='')
+	print(f'length of smallest substring with distict character of {str} => ',l,end='')
